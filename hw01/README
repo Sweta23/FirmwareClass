@@ -1,0 +1,15 @@
+1. Installed GNU ARM toolchain from Linaro
+2. Brief read up on Cortex M3 ISA
+3. Read up on manual for the board to be used in class
+4. Wrote a basic C program to toggle assigned GPIO 24
+a. PIN24 mapped to Port 2 Pin 2 (P 2.2), using select register(PINSEL4)
+b. Set direction of pin to output, using using DIR register(FIO2DIR)
+c. Set to 1, using set register(FIO2SET)
+d. Clear back to 0, using clear register(FIO2CLR)
+
+
+Time Spent:
+Environment Setup: 2-3 hrs
+Reading up the manual for LPC1768: 1 hr
+Gathering and reading up Cortex M3 related informtion: 1 hr
+Code, compile and generate objdump: 15-20 mins
